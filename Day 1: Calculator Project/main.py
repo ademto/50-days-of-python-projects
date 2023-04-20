@@ -17,5 +17,7 @@ elif choice == "3":
     result = mul(first_number, second_number)
 elif choice == "4":
     result = div(first_number, second_number)
+else:
+    print("Invalid choice")
 
-print(f"\nThe result is: {result}")
+print("The result is:", result)
